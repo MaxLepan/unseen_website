@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 
 import LandingSection from "~/components/landing.vue";
-import FunFacts from "~/components/funFacts.vue";
 </script>
 
 <template>
@@ -11,5 +10,7 @@ import FunFacts from "~/components/funFacts.vue";
   <LandingSection/>
   <OurValues/>
   <FunFacts/>
+  <OurValues/>
+  <OurValues/>
   <Team/>
 </template>
