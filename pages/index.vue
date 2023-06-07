@@ -9,4 +9,6 @@ import LandingSection from "~/components/landing.vue";
   </nav>
   <LandingSection/>
   <OurValues/>
+  <OurValues/>
+  <OurValues/>
 </template>
