@@ -14,6 +14,9 @@ module.exports = {
             'black': {
                 500: '#242A2B',
             },
+            'green': {
+                100: '#ebf0e3',
+            }
         },
         fontFamily: {
             'title': ['Rubik', 'sans-serif'],
