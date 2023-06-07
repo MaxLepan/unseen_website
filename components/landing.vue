@@ -5,7 +5,7 @@
 <template>
   <section class="bg-beige-200 grid sm:grid-cols-2 gap-1 lg:p-20 sm:p-10 p-5 rounded-lg">
     <div class="bg-black-500 h-10 w-10"></div>
-    <div class="">
+    <div class="z-10">
       <h1 class="font-extrabold font-title lg:text-8xl md:text-6xl text-4xl ">UNSEEN</h1>
       <h2 class="font-bold font-title lg:text-5xl md:text-3xl text-xl">Découvrir l’invisible et voir
         l’indispensable</h2>

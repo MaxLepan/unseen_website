@@ -16,7 +16,8 @@ module.exports = {
             },
             'green': {
                 100: '#ebf0e3',
-            }
+            },
+            'transparent': 'transparent',
         },
         fontFamily: {
             'title': ['Rubik', 'sans-serif'],

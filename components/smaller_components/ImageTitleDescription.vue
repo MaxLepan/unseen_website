@@ -8,7 +8,7 @@ export default {
   },
 }
 </script>
-
+<!-- TODO : In prod, change /_nuxt/assets/ to something that will work correctly -->
 <template>
   <div :class="'flex flex-col items-center justify-start justify-self-' + position + ' lg:w-60 md:w-44 sm:w-36 w-60'">
     <img :alt="title + 'icon'" :src="'/_nuxt/assets/' + imageFilename" class="lg:h-32 h-24"/>
