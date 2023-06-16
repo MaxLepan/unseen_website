@@ -14,15 +14,27 @@
       <img alt="ant" class="ant relative h-full max-w-none" src="@/assets/images/ant-spritesheet.png"/>
     </div>
   </div>
+  <div>
+    <form>
+      <select v-model="locale">
+        <option value="en">English</option>
+        <option selected value="fr">Français</option>
+      </select>
+    </form>
+  </div>
+  <p>{{ $t('welcome') }}</p>
   <Landing/>
   <OurValues/>
   <FunFacts/>
+  <Features/>
   <OurValues/>
   <OurValues/>
   <Team/>
 </template>
 
 <script lang="ts" setup>
+const {locale} = useI18n();
+
 import {gsap} from "gsap";
 import {MotionPathPlugin} from "gsap/MotionPathPlugin";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
