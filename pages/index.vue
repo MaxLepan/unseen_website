@@ -14,7 +14,7 @@
       <img alt="ant" class="ant relative h-full max-w-none" src="@/assets/images/ant-spritesheet.png"/>
     </div>
   </div>
-  <div>
+  <div class="z-10">
     <form>
       <select v-model="locale">
         <option value="en">English</option>
@@ -22,7 +22,6 @@
       </select>
     </form>
   </div>
-  <p>{{ $t('welcome') }}</p>
   <Landing/>
   <OurValues/>
   <FunFacts/>
