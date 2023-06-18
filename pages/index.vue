@@ -26,9 +26,9 @@
   <OurValues/>
   <FunFacts/>
   <Features/>
-  <OurValues/>
-  <OurValues/>
+  <LittleExtras/>
   <Team/>
+  <OurValues/>
 </template>
 
 <script lang="ts" setup>
