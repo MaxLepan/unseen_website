@@ -5,43 +5,43 @@
 <template>
   <section class="bg-green-100 lg:p-20 sm:p-10 p-5 rounded-lg">
     <div class="md:w-11/12">
-      <h2 class="font-title  font-bold text-5xl">{{ $t('teamHeadline') }}</h2>
-      <h3 class="text-4xl font-title font-semibold my-5">{{ $t('teamSubHeadline') }}</h3>
+      <h2 class="font-title font-bold lg:text-5xl md:text-4xl sm:text-3xl text-2xl">{{ $t('teamHeadline') }}</h2>
+      <h3 class="sm:block hidden text-4xl font-title font-semibold my-5">{{ $t('teamSubHeadline') }}</h3>
       <section class="flex flex-basis flex-wrap justify-center">
         <div class="md:basis-1/3 px-10 mt-10">
-          <figure class="img-container w-full flex justify-center mx-auto mb-10">
+          <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/marine.jpg">
           </figure>
-          <h4 class="text-4xl text-center font-title font-bold">Marine</h4>
-          <p class="text-2xl text-center font-body">{{ $t('teamMemberMarineText') }}</p>
+          <h4 class="lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center font-title font-bold">Marine</h4>
+          <p class="md:text-2xl sm:text-xl text-lg text-center font-body">{{ $t('teamMemberMarineText') }}</p>
         </div>
         <div class="md:basis-1/3 px-10 mt-10">
-          <figure class="img-container w-full flex justify-center mx-auto mb-10">
+          <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/romain.jpg">
           </figure>
-          <h4 class="text-4xl text-center font-title font-bold">Romain</h4>
-          <p class="text-2xl text-center font-body">{{ $t('teamMemberRomainText') }}</p>
+          <h4 class="lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center font-title font-bold">Romain</h4>
+          <p class="md:text-2xl sm:text-xl text-lg text-center font-body">{{ $t('teamMemberRomainText') }}</p>
         </div>
         <div class="md:basis-1/3 px-10 mt-10">
-          <figure class="img-container w-full flex justify-center mx-auto mb-10">
+          <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/chloea.jpg">
           </figure>
-          <h4 class="text-4xl text-center font-title font-bold">Chloé</h4>
-          <p class="text-2xl text-center font-body">{{ $t('teamMemberChloeAText') }}</p>
+          <h4 class="lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center font-title font-bold">Chloé</h4>
+          <p class="md:text-2xl sm:text-xl text-lg text-center font-body">{{ $t('teamMemberChloeAText') }}</p>
         </div>
         <div class="md:basis-1/3 px-10 mt-10">
-          <figure class="img-container w-full flex justify-center mx-auto mb-10">
+          <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/chloef.png">
           </figure>
-          <h4 class="text-4xl text-center font-title font-bold">Chloé</h4>
-          <p class="text-2xl text-center font-body">{{ $t('teamMemberChloeFText') }}</p>
+          <h4 class="lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center font-title font-bold">Chloé</h4>
+          <p class="md:text-2xl sm:text-xl text-lg text-center font-body">{{ $t('teamMemberChloeFText') }}</p>
         </div>
         <div class="md:basis-1/3 px-10 mt-10">
-          <figure class="img-container w-full flex justify-center mx-auto mb-10">
+          <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/max.jpg">
           </figure>
-          <h4 class="text-4xl text-center font-title font-bold">Max</h4>
-          <p class="text-2xl text-center font-body">{{ $t('teamMemberMaxText') }}</p>
+          <h4 class="lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center font-title font-bold">Max</h4>
+          <p class="md:text-2xl sm:text-xl text-lg text-center font-body">{{ $t('teamMemberMaxText') }}</p>
         </div>
       </section>
     </div>
