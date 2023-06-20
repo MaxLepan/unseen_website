@@ -2,7 +2,7 @@
   <nav class="flex justify-center sm:pb-8 pb-2.5">
     <img alt="Logo" src="public/favicon.ico"/>
   </nav>
-  <div id="container" class="w-full absolute flex flex-col justify-start z-0">
+  <div id="container" class="w-full absolute sm:flex hidden flex-col justify-start z-0">
     <svg id="motion-path" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
       <path id="path" class="transparent"
             d="M198,15 c-5,76 33,47 36,140 c-1,56 -40,60 -39,112 c-5,65 32,68 38,124 c-1,54 -42,36 -43,102"
@@ -14,11 +14,11 @@
       <img alt="ant" class="ant relative h-full max-w-none" src="@/assets/images/ant-spritesheet.png"/>
     </div>
   </div>
-  <div class="z-10">
-    <form>
+  <div>
+    <form class="z-10">
       <select v-model="locale">
-        <option value="en">English</option>
-        <option selected value="fr">Français</option>
+        <option value="en">EN</option>
+        <option selected value="fr">FR</option>
       </select>
     </form>
   </div>
@@ -28,7 +28,7 @@
   <Features/>
   <LittleExtras/>
   <Team/>
-  <OurValues/>
+  <PromotionalVideo/>
 </template>
 
 <script lang="ts" setup>

@@ -7,6 +7,9 @@ export default defineI18nConfig(() => ({
             headline: 'Discover the invisible and see the essential',
             subHeadline: 'Welcome to Unseen, an application that allows you to get to know and understand the little creatures that surround your walks and hikes.',
             downloadApp: 'Download the app',
+            mobileHeadline1: 'Discover',
+            mobileHeadline2: 'the invisible',
+            mobileHeadline3: 'and see the essential',
 
             ourValues: 'Our values',
             pedagogy: 'Pedagogy',
@@ -44,13 +47,16 @@ export default defineI18nConfig(() => ({
             teamMemberChloeFText: 'Our technician and beloved party-pooper',
             teamMemberMaxText: 'Our spelling pro and back-end developer',
             promotionalVideoTitle: 'Promotional Video',
-            promotionalVideoText: 'Here is the promotional video for our application showcasing its functionality.',
+            promotionalVideoText: 'Here is the promotional video for our application showcasing its functionalities.',
             ourPartners: 'Our Partners',
         },
         fr: {
             headline: 'Découvrir l’invisible et voir l’indispensable',
             subHeadline: 'Bienvenue sur Unseen, une application te permettant de pouvoir connaître et comprendre les petites bêtes qui entourent tes balades et tes randonnées.',
             downloadApp: 'Télécharger l\'application',
+            mobileHeadline1: 'Découvrir',
+            mobileHeadline2: 'l\'invisible',
+            mobileHeadline3: 'et voir l\'indispensable',
 
             ourValues: 'Nos valeurs',
             pedagogy: 'Pédagogie',
