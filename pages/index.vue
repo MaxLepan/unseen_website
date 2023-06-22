@@ -24,11 +24,11 @@
   </div>
   <Landing/>
   <OurValues/>
-  <FunFacts/>
   <Features/>
   <LittleExtras/>
-  <Team/>
   <PromotionalVideo/>
+  <FunFacts/>
+  <Team/>
 </template>
 
 <script lang="ts" setup>

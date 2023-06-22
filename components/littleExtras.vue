@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import ImageTitleDescription from "~/components/smaller_components/ImageTitleDescription.vue";
+import ImageTitleDescriptionExtras from "~/components/smaller_components/ImageTitleDescriptionExtras.vue";
 </script>
 
 <template>
@@ -8,15 +8,15 @@ import ImageTitleDescription from "~/components/smaller_components/ImageTitleDes
         $t('smallAdvantagesTitle')
       }}</h2>
     <div class="grid sm:grid-cols-3 grid-rows-1 sm:gap-0 gap-5 justify-evenly">
-      <ImageTitleDescription :caption="$t('smallAdvantagePhobiaText')"
-                             :title="$t('smallAdvantagePhobiaTitle')" imageFilename="icons/pedagogie.svg"
-                             position="justify-self-start"/>
-      <ImageTitleDescription :caption="$t('smallAdvantageMapText')"
-                             :title="$t('smallAdvantageMapTitle')" imageFilename="icons/compassion.svg"
-                             position="justify-self-center"/>
-      <ImageTitleDescription :caption="$t('smallAdvantageSearchText')"
-                             :title="$t('smallAdvantageSearchTitle')" imageFilename="icons/proximite.svg"
-                             position="justify-self-end"/>
+      <ImageTitleDescriptionExtras :caption="$t('smallAdvantageMapText')"
+                                   :title="$t('smallAdvantageMapTitle')" imageFilename="images/add_photo_on_map.png"
+                                   position="justify-self-start"/>
+      <ImageTitleDescriptionExtras :caption="$t('smallAdvantageSearchText')"
+                                   :title="$t('smallAdvantageSearchTitle')" imageFilename="images/search_around_you.png"
+                                   position="justify-self-center"/>
+      <ImageTitleDescriptionExtras :caption="$t('smallAdvantagePhobiaText')"
+                                   :title="$t('smallAdvantagePhobiaTitle')" imageFilename="images/hide_with_phobia.png"
+                                   position="justify-self-end"/>
     </div>
   </section>
 </template>
