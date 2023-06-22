@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="bg-green-100 lg:p-20 sm:p-10 p-5 rounded-lg">
+  <section class="bg-green-100 lg:p-20 sm:p-10 p-5 rounded-b-lg">
     <div class="md:w-11/12">
       <h2 class="font-title font-bold lg:text-5xl md:text-4xl sm:text-3xl text-2xl">{{ $t('teamHeadline') }}</h2>
       <h3 class="sm:block hidden text-4xl font-title font-semibold my-5">{{ $t('teamSubHeadline') }}</h3>

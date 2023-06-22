@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="bg-green-100 lg:p-20 sm:p-10 p-5 rounded-lg">
+  <section class="bg-green-100 lg:p-20 sm:p-10 p-5">
     <div class="md:w-8/12">
       <h2 class="font-title font-bold lg:text-5xl md:text-4xl sm:text-3xl text-2xl -rotate-6 sm:mb-20 mb-10">
         {{ $t('barkBeetlesHeadline') }}</h2>
