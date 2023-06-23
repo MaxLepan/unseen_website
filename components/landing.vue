@@ -11,7 +11,7 @@
         }}</span>{{ $t('headlineEnd') }}</h1>
       <div class="flex flex-row gap-3.5 mt-4 mb-8">
         <img alt="Marker" src="/icons/place_01.svg">
-        <p class="font-title font-bold md:text-lg sm:text-base text-base">{{ $t('subHeadline') }}</p>
+        <h2 class="font-title font-bold md:text-lg sm:text-base text-base">{{ $t('subHeadline') }}</h2>
       </div>
       <button class="bg-olive-200 pt-2.5 pb-2.5 pr-4 pl-4 sm:w-auto w-full rounded-md">
         <a class="font-body font-bold lg:text-2xl md:text-lg text-base" href="#">{{

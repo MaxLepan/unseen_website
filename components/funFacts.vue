@@ -3,16 +3,20 @@
 </script>
 
 <template>
-  <section class="bg-green-100 lg:p-20 sm:p-10 p-5">
-    <div class="md:w-8/12">
-      <h2 class="font-title font-bold lg:text-5xl md:text-4xl sm:text-3xl text-2xl -rotate-6 sm:mb-20 mb-10">
-        {{ $t('barkBeetlesHeadline') }}</h2>
-      <h3 class="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold my-5">{{ $t('barkBeetlesSubHeadline') }}</h3>
-      <p class="font-body font-medium sm:text-lg">{{ $t('barkBeetlesText') }}</p>
+  <section class="flex flex-row justify-around py-16">
+    <div class="flex flex-row gap-5 items-center">
+      <p class="font-title font-bold text-5xl">50%</p>
+      <div>
+        <p class="font-title font-bold text-xl">{{ $t('statsHeadline') }}</p>
+        <p class="font-title">{{ $t('statsQuestion') }}</p>
+      </div>
     </div>
-    <figure class="w-full my-4">
-      <img alt="scolytes" class="w-full object-cover" src="../assets/images/scolytes.png">
-    </figure>
+    <div class="flex flex-row gap-3.5">
+      <img alt="insect icon" class="h-full" src="/icons/insects_icons.svg">
+      <img alt="amphibian icon" class="h-full" src="/icons/amphibian_icons.svg">
+      <img alt="arachnid icon" class="h-full" src="/icons/arachnid_icons.svg">
+      <img alt="reptile icon" class="h-full" src="/icons/reptile_icons.svg">
+    </div>
   </section>
 </template>
 

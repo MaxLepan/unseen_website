@@ -4,17 +4,22 @@ export default {
     title: String,
     caption: String,
     imageFilename: String,
-    position: String
+    iconFilename: String
   },
 }
 </script>
 <template>
-  <div :class="'flex flex-col gap-4 items-center justify-start ' + position + ' lg:w-60 md:w-44 sm:w-36 w-full'">
-    <img :alt="title + ' icon'" :src="'/' + imageFilename" class="w-64"/>
-    <div>
-      <h3 class="font-title font-bold lg:text-4xl md:text-3xl sm:text-2xl text-xl sm:text-center lg:mt-5 md:mt-4 sm:mt-3 mt-2">
+  <div class="flex flex-col items-center justify-start rounded">
+    <div class="relative">
+      <img :alt="title + ' icon'" :src="'/' + imageFilename" class="w-full"/>
+      <div class="absolute bottom-0 right-10 transform translate-x-1/2 translate-y-1/2">
+        <img :alt="title + ' icon'" :src="'/' + iconFilename" class="w-11 rounded-full bg-beige-100 p-1"/>
+      </div>
+    </div>
+    <div class="bg-beige-200 px-6 pb-8 pt-9">
+      <h3 class="font-title font-bold lg:text-2xl md:text-xl text-lg mb-1">
         {{ title }}</h3>
-      <p class="font-body md:text-xl sm:text-lg text-base sm:text-center lg:mt-7 md:mt-5 sm:mt-3 mt-1">
+      <p class="font-body text-base leading-5">
         {{ caption }}</p>
     </div>
   </div>

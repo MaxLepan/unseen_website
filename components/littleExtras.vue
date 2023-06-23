@@ -4,19 +4,27 @@ import ImageTitleDescriptionExtras from "~/components/smaller_components/ImageTi
 
 <template>
   <section class="lg:p-24 md:p-12 sm:p-6 p-5 z-10 relative">
-    <h2 class="font-title font-bold lg:text-5xl md:text-4xl sm:text-3xl text-2xl mb-10">{{
-        $t('smallAdvantagesTitle')
-      }}</h2>
-    <div class="grid sm:grid-cols-3 grid-rows-1 sm:gap-0 gap-5 justify-evenly">
+    <div class="relative">
+      <div class="absolute -bottom-2 left-60 transform translate-x-1/2 translate-y-1/2">
+        <img alt="" src="/icons/feuille_03.svg">
+      </div>
+      <h2 class="font-title font-bold text-center lg:text-4xl md:text-3xl sm:text-2xl text-xl mb-14">{{
+          $t('smallAdvantagesTitle')
+        }}</h2>
+      <div class="absolute bottom-10 right-72 transform translate-x-1/2 translate-y-1/2">
+        <img alt="" src="/icons/feuille_01.svg">
+      </div>
+    </div>
+    <div class="grid sm:grid-cols-3 grid-rows-1 sm:gap-14 gap-5 justify-evenly">
       <ImageTitleDescriptionExtras :caption="$t('smallAdvantageMapText')"
-                                   :title="$t('smallAdvantageMapTitle')" imageFilename="images/add_photo_on_map.png"
-                                   position="justify-self-start"/>
-      <ImageTitleDescriptionExtras :caption="$t('smallAdvantageSearchText')"
-                                   :title="$t('smallAdvantageSearchTitle')" imageFilename="images/search_around_you.png"
-                                   position="justify-self-center"/>
+                                   :title="$t('smallAdvantageMapTitle')" iconFilename="icons/add_photo_to_map.svg"
+                                   imageFilename="images/add_photo_on_map.png"/>
+      <ImageTitleDescriptionExtras :caption="$t('smallAdvantageNewsText')"
+                                   :title="$t('smallAdvantageNewsTitle')" iconFilename="icons/news_parks.svg"
+                                   imageFilename="images/news_parks.png"/>
       <ImageTitleDescriptionExtras :caption="$t('smallAdvantagePhobiaText')"
-                                   :title="$t('smallAdvantagePhobiaTitle')" imageFilename="images/hide_with_phobia.png"
-                                   position="justify-self-end"/>
+                                   :title="$t('smallAdvantagePhobiaTitle')"
+                                   iconFilename="icons/adjust_phobias.svg" imageFilename="images/adjust_phobias.png"/>
     </div>
   </section>
 </template>

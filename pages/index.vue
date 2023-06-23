@@ -1,11 +1,11 @@
 <template>
   <Header/>
   <Landing/>
+  <FunFacts/>
+  <LittleExtras/>
   <OurValues/>
   <Features/>
-  <LittleExtras/>
   <PromotionalVideo/>
-  <FunFacts/>
   <Team/>
   <div id="container" class="w-full absolute sm:flex hidden flex-col justify-start z-0">
     <svg id="motion-path" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
