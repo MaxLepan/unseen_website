@@ -11,6 +11,7 @@ module.exports = {
             'olive': {
                 200: '#D2C65E',
                 300: '#BDB145',
+                400: '#B0A335',
             },
             'black': {
                 500: '#242A2B',

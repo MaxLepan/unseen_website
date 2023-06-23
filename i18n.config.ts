@@ -4,8 +4,10 @@ export default defineI18nConfig(() => ({
     locales: ['en', 'fr'],
     messages: {
         en: {
-            headline: 'Discover the invisible and see the essential',
-            subHeadline: 'Welcome to Unseen, an application that allows you to get to know and understand the little creatures that surround your walks and hikes.',
+            headlineStart: 'The app that will make you see the ',
+            headlineColored: 'little creatures',
+            headlineEnd: ' in a new light',
+            subHeadline: 'In the French national parks',
             downloadApp: 'Download the app',
             mobileHeadline1: 'Discover',
             mobileHeadline2: 'the invisible',
@@ -52,8 +54,10 @@ export default defineI18nConfig(() => ({
             ourPartners: 'Our Partners',
         },
         fr: {
-            headline: 'Découvrir l’invisible et voir l’indispensable',
-            subHeadline: 'Bienvenue sur Unseen, une application te permettant de pouvoir connaître et comprendre les petites bêtes qui entourent tes balades et tes randonnées.',
+            headlineStart: 'L\'app\' qui te fera voir les ',
+            headlineColored: 'petites bêtes',
+            headlineEnd: ' d\'un nouvel œil',
+            subHeadline: 'Dans les parcs nationaux français',
             downloadApp: 'Télécharger l\'application',
             mobileHeadline1: 'Découvrir',
             mobileHeadline2: 'l\'invisible',

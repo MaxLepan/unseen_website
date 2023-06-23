@@ -1,7 +1,12 @@
 <template>
-  <nav class="flex justify-center sm:pb-8 pb-2.5">
-    <img alt="Logo" src="public/favicon.ico"/>
-  </nav>
+  <Header/>
+  <Landing/>
+  <OurValues/>
+  <Features/>
+  <LittleExtras/>
+  <PromotionalVideo/>
+  <FunFacts/>
+  <Team/>
   <div id="container" class="w-full absolute sm:flex hidden flex-col justify-start z-0">
     <svg id="motion-path" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
       <path id="path" class="transparent"
@@ -14,26 +19,9 @@
       <img alt="ant" class="ant relative h-full max-w-none" src="@/assets/images/ant-spritesheet.png"/>
     </div>
   </div>
-  <div>
-    <form class="z-10">
-      <select v-model="locale">
-        <option value="en">EN</option>
-        <option selected value="fr">FR</option>
-      </select>
-    </form>
-  </div>
-  <Landing/>
-  <OurValues/>
-  <Features/>
-  <LittleExtras/>
-  <PromotionalVideo/>
-  <FunFacts/>
-  <Team/>
 </template>
 
 <script lang="ts" setup>
-const {locale} = useI18n();
-
 import {gsap} from "gsap";
 import {MotionPathPlugin} from "gsap/MotionPathPlugin";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
