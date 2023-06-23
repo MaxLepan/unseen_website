@@ -9,8 +9,8 @@ export default {
 }
 </script>
 <template>
-  <div class="flex flex-col items-center justify-start rounded">
-    <div class="relative">
+  <div class="flex flex-col items-center justify-start rounded overflow-hidden">
+    <div class="relative w-full">
       <img :alt="title + ' icon'" :src="'/' + imageFilename" class="w-full"/>
       <div class="absolute bottom-0 right-10 transform translate-x-1/2 translate-y-1/2">
         <img :alt="title + ' icon'" :src="'/' + iconFilename" class="w-11 rounded-full bg-beige-100 p-1"/>

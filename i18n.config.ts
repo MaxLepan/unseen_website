@@ -42,8 +42,7 @@ export default defineI18nConfig(() => ({
             smallAdvantageNewsTitle: 'Inform yourself about the news of the parks',
             smallAdvantageNewsText: 'Stay informed about news concerning biodiversity and the environment of the park',
 
-            teamHeadline: 'The Team - The Guardians of Mother Earth',
-            teamSubHeadline: 'A team of 5 caring and passionate people, consisting of 3 designers and 2 developers.',
+            teamHeadline: 'Our team',
             teamMemberMarineText: 'Our Swiss Army knife and versatile illustrator',
             teamMemberRomainText: 'Our creative dev and talented musician',
             teamMemberChloeAText: 'Our gentle strength and photographer',
@@ -92,8 +91,7 @@ export default defineI18nConfig(() => ({
             smallAdvantageNewsTitle: 'Informe-toi de l’actualité des parcs',
             smallAdvantageNewsText: 'Tiens-toi informé des nouvelles concernant la biodiversité et l’environnement du parc',
 
-            teamHeadline: 'L\'Équipe  -  Les Gardiens de la Terre Mère',
-            teamSubHeadline: 'Une équipe de 5 personnes bienveillantes et passionnées, constituée de 3 designers et de 2 développeurs.',
+            teamHeadline: 'Notre équipe',
             teamMemberMarineText: 'Notre couteau-suisse & illustratrice effrénée',
             teamMemberRomainText: 'Notre creative dev & musicos de talent',
             teamMemberChloeAText: 'Notre force calme & photographe',

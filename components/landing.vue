@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <section class="bg-beige-200 grid sm:grid-cols-2 gap-1 lg:p-20 sm:p-10 p-5 rounded-lg h-full">
+  <section class="bg-beige-200 grid sm:grid-cols-2 gap-1 lg:p-20 sm:p-10 p-5 sm:m-0 mx-5 rounded-lg h-full">
     <div class="z-10">
-      <h1 class="font-bold font-title lg:text-5xl md:text-3xl sm:block hidden">{{ $t('headlineStart') }}<span
+      <h1 class="font-bold font-title lg:text-5xl md:text-3xl text-5xl">{{ $t('headlineStart') }}<span
           class="text-olive-400">{{
           $t('headlineColored')
         }}</span>{{ $t('headlineEnd') }}</h1>

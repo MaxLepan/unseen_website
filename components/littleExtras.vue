@@ -5,17 +5,17 @@ import ImageTitleDescriptionExtras from "~/components/smaller_components/ImageTi
 <template>
   <section class="lg:p-24 md:p-12 sm:p-6 p-5 z-10 relative">
     <div class="relative">
-      <div class="absolute -bottom-2 left-60 transform translate-x-1/2 translate-y-1/2">
+      <div class="lg:block hidden absolute -bottom-2 left-60 transform translate-x-1/2 translate-y-1/2">
         <img alt="" src="/icons/feuille_03.svg">
       </div>
-      <h2 class="font-title font-bold text-center lg:text-4xl md:text-3xl sm:text-2xl text-xl mb-14">{{
+      <h2 class="font-title font-bold text-center text-4xl mb-14">{{
           $t('smallAdvantagesTitle')
         }}</h2>
-      <div class="absolute bottom-10 right-72 transform translate-x-1/2 translate-y-1/2">
+      <div class="lg:block hidden absolute bottom-10 right-72 transform translate-x-1/2 translate-y-1/2">
         <img alt="" src="/icons/feuille_01.svg">
       </div>
     </div>
-    <div class="grid sm:grid-cols-3 grid-rows-1 sm:gap-14 gap-5 justify-evenly">
+    <div class="grid sm:grid-cols-3 grid-rows-1 sm:gap-14 gap-10 justify-evenly">
       <ImageTitleDescriptionExtras :caption="$t('smallAdvantageMapText')"
                                    :title="$t('smallAdvantageMapTitle')" iconFilename="icons/add_photo_to_map.svg"
                                    imageFilename="images/add_photo_on_map.png"/>
