@@ -4,7 +4,7 @@ import ImageTitleDescription from "~/components/smaller_components/ImageTitleDes
 </script>
 
 <template>
-  <section class="lg:p-20 sm:p-10 p-5 mx-3.5 rounded-b-lg overflow-hidden bg-beige-200 z-10 relative">
+  <section class="lg:p-20 sm:p-10 p-5 sm:mx-0 mx-5 rounded-b-lg overflow-hidden bg-beige-200 z-10 relative">
     <div class="flex justify-center items-center gap-10 mb-10">
       <div class="h-[1px] bg-black flex-grow border-[1px] border-beige-400 rounded"></div>
       <h2 class="font-title text-2xl italic">{{ $t('ourValues') }}</h2>

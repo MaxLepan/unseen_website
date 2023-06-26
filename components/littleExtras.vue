@@ -3,7 +3,7 @@ import ImageTitleDescriptionExtras from "~/components/smaller_components/ImageTi
 </script>
 
 <template>
-  <section class="lg:p-24 md:p-12 sm:p-6 p-5 z-10 relative">
+  <section class="mb-10 sm:mx-0 mx-5 z-10 relative">
     <div class="relative">
       <div class="lg:block hidden absolute -bottom-2 left-60 transform translate-x-1/2 translate-y-1/2">
         <img alt="" src="/icons/feuille_03.svg">

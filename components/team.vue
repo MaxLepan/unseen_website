@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="bg-beige-200 lg:p-20 sm:p-10 p-5 rounded-t-lg overflow-hidden mx-3.5">
+  <section class="bg-beige-200 lg:p-20 sm:p-10 p-5 rounded-t-lg overflow-hidden sm:mx-0 mx-5">
     <div class="relative">
       <div class="lg:block hidden absolute bottom-4 left-52 transform translate-x-1/2 translate-y-1/2 z-0">
         <img alt="" src="/icons/feuille_01_2.svg">

@@ -15,11 +15,11 @@ export default defineI18nConfig(() => ({
 
             ourValues: 'Our values',
             pedagogy: 'Pedagogy',
-            pedagogyText: 'Sharing knowledge and diverse information about little creatures',
+            pedagogyText: 'Sharing knowledge in a simple way !',
             sensitize: 'Compassion',
-            sensitizeText: 'Creating an attraction and sympathy towards little creatures',
+            sensitizeText: 'Warm and welcoming speeches',
             proximity: 'Proximity',
-            proximityText: 'Welcoming and informal speeches to better understand our environment',
+            proximityText: 'Learning to become sensitive to living beings',
 
             barkBeetlesHeadline: 'Bark beetles',
             barkBeetlesSubHeadline: 'It all started with our research on the bark beetle crisis',
@@ -48,8 +48,9 @@ export default defineI18nConfig(() => ({
             teamMemberChloeAText: 'Our gentle strength and photographer',
             teamMemberChloeFText: 'Our technician and beloved party-pooper',
             teamMemberMaxText: 'Our spelling pro and back-end developer',
-            promotionalVideoTitle: 'Promotional Video',
-            promotionalVideoText: 'Here is the promotional video for our application showcasing its functionalities.',
+
+            promotionalVideoText: 'Presentation of the application - June 2023',
+
             ourPartners: 'Our Partners',
         },
         fr: {
@@ -98,8 +99,7 @@ export default defineI18nConfig(() => ({
             teamMemberChloeFText: 'Notre technicienne & rabat-joie adorée',
             teamMemberMaxText: 'Notre pro de l’orthographe & dev back',
 
-            promotionalVideoTitle: 'Vidéo promotionnelle',
-            promotionalVideoText: 'Voici la vidéo promotionnelle pour notre application présentant son fonctionnement.',
+            promotionalVideoText: 'Présentation de l’application - juin 2023',
 
             ourPartners: 'Nos partenaires',
         }
