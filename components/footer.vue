@@ -1,10 +1,12 @@
 <script lang="ts" setup>
 
 import SocialMedia from "~/components/smaller_components/socialMedia.vue";
+import OurPartners from "~/components/smaller_components/ourPartners.vue";
 </script>
 
 <template>
   <footer class="bg-beige-200 mt-20">
+    <OurPartners/>
     <SocialMedia/>
     <div class="bg-black-500 grid grid-cols-12 py-10 px-12">
       <div class="col-start-6 col-span-2">

@@ -51,7 +51,7 @@ export default defineI18nConfig(() => ({
 
             promotionalVideoText: 'Presentation of the application - June 2023',
 
-            ourPartners: 'Our Partners',
+            ourPartners: 'Our partners',
         },
         fr: {
             headlineStart: 'L\'app qui te fera voir les ',
