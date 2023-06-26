@@ -1,26 +1,19 @@
 <script lang="ts" setup>
 
+import SocialMedia from "~/components/smaller_components/socialMedia.vue";
 </script>
 
 <template>
-  <footer class="bg-olive-300 sm:p-36 p-5">
-    <div class="flex sm:flex-row flex-col sm:gap-0 gap-6 justify-around items-center">
-      <img alt="small logo" class="h-10" src="/icons/small_logo.svg"/>
-      <div class="flex flex-row gap-5">
-        <img alt="instagram logo" class="h-10" src="/icons/ig_logo.svg"/>
-        <img alt="facebook logo" class="h-10" src="/icons/facebook_logo.svg"/>
-        <img alt="youtube logo" class="h-10" src="/icons/youtube_logo.svg"/>
+  <footer class="bg-beige-200 mt-20">
+    <SocialMedia/>
+    <div class="bg-black-500 grid grid-cols-12 py-10 px-12">
+      <div class="col-start-6 col-span-2">
+        <p class="text-beige-200 font-title sm:text-base text-sm text-center">Copyright 2023 - Unseen</p>
       </div>
-      <div class="flex sm:flex-row flex-col gap-4">
-        <a>
-          <img alt="download on app store" src="/images/dl_appstore.png"/>
-        </a>
-        <a>
-          <img alt="download on google play" src="/images/dl_googleplay.png"/>
-        </a>
+      <div class="col-start-12 flex justify-end">
+        <img alt="small logo" class="sm:block hidden" src="/icons/small_logo.svg"/>
       </div>
     </div>
-    <p class="text-center font-body text-primary font-medium mt-10">Copyright 2023 - UNSEEN</p>
   </footer>
 </template>
 
