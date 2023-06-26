@@ -52,6 +52,10 @@ export default defineI18nConfig(() => ({
             promotionalVideoText: 'Presentation of the application - June 2023',
 
             ourPartners: 'Our partners',
+
+            downloadTextStart: 'To download the application, go ',
+            downloadTextSpan: 'on the stores',
+            downloadTextEnd: ' Google Play and App Store !',
         },
         fr: {
             headlineStart: 'L\'app qui te fera voir les ',
@@ -102,6 +106,10 @@ export default defineI18nConfig(() => ({
             promotionalVideoText: 'Présentation de l’application - juin 2023',
 
             ourPartners: 'Nos partenaires',
+
+            downloadTextStart: 'Pour télécharger l\'application, rends-toi ',
+            downloadTextSpan: 'sur les stores',
+            downloadTextEnd: ' Google Play et App Store !',
         }
     }
 }))
