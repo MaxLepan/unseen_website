@@ -16,7 +16,7 @@ export default {
         <img :alt="title + ' icon'" :src="'/' + iconFilename" class="w-11 rounded-full bg-beige-100 p-1"/>
       </div>
     </div>
-    <div class="bg-beige-200 px-6 pb-8 pt-9">
+    <div class="bg-beige-200 h-full px-6 pb-8 pt-9">
       <h3 class="font-title font-bold lg:text-2xl md:text-xl text-lg mb-1">
         {{ title }}</h3>
       <p class="font-body text-base leading-5">
