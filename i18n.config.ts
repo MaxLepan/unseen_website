@@ -54,8 +54,8 @@ export default defineI18nConfig(() => ({
             ourPartners: 'Our partners',
 
             downloadTextStart: 'To download the application, go ',
-            downloadTextSpan: 'on the stores',
-            downloadTextEnd: ' Google Play and App Store !',
+            downloadTextSpan: 'on Google Play and App Store !',
+            downloadTextEnd: '',
         },
         fr: {
             headlineStart: 'L\'app qui te fera voir les ',
