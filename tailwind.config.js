@@ -27,6 +27,8 @@ module.exports = {
             'body': ['Nunito', 'sans-serif'],
         }
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/aspect-ratio'),
+    ],
 }
 
