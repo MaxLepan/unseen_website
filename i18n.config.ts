@@ -16,8 +16,8 @@ export default defineI18nConfig(() => ({
             ourValues: 'Our values',
             pedagogy: 'Pedagogy',
             pedagogyText: 'Sharing knowledge and diverse information about little creatures',
-            compassion: 'Compassion',
-            compassionText: 'Creating an attraction and sympathy towards little creatures',
+            sensitize: 'Compassion',
+            sensitizeText: 'Creating an attraction and sympathy towards little creatures',
             proximity: 'Proximity',
             proximityText: 'Welcoming and informal speeches to better understand our environment',
 
@@ -64,11 +64,11 @@ export default defineI18nConfig(() => ({
 
             ourValues: 'Nos valeurs',
             pedagogy: 'Pédagogie',
-            pedagogyText: 'Partage de connaissances et d\'informations diverses sur les petites bêtes',
-            compassion: 'Compassion',
-            compassionText: 'Amener un attrait et une sympathie envers les petites bêtes',
+            pedagogyText: 'Partage de connaissances en toute simplicité !',
+            sensitize: 'Compassion',
+            sensitizeText: 'Discours chaleureux et accueillant',
             proximity: 'Proximité',
-            proximityText: 'Discours accueillants et informels pour mieux comprendre notre environnement',
+            proximityText: ' Apprendre à redevenir sensible aux êtres vivants',
 
             barkBeetlesHeadline: 'Les scolytes',
             barkBeetlesSubHeadline: 'Tout est parti de nos recherche sur la crise des scolytes',

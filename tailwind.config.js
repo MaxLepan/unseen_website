@@ -7,6 +7,7 @@ module.exports = {
             'beige': {
                 100: '#FEFAF4',
                 200: '#F8F1E4',
+                400: '#E5DAC8',
             },
             'olive': {
                 200: '#D2C65E',

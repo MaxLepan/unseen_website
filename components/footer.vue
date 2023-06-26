@@ -20,7 +20,7 @@
         </a>
       </div>
     </div>
-    <p class="text-center font-body text-primary font-medium mt-10">Copyright 2023 - Mentions légales - UNSEEN</p>
+    <p class="text-center font-body text-primary font-medium mt-10">Copyright 2023 - UNSEEN</p>
   </footer>
 </template>
 

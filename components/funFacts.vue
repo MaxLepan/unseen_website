@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="flex sm:flex-row flex-col justify-around my-16 sm:px-0 px-10">
+  <section class="flex lg:flex-row flex-col justify-around my-16 sm:px-0 px-10">
     <div class="flex sm:flex-row flex-col sm:gap-5 gap-1 sm:items-center items-start">
       <p class="font-title font-bold text-5xl">50%</p>
       <div>
