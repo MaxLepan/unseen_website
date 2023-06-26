@@ -19,8 +19,8 @@
           }}</a>
       </button>
     </div>
-    <img alt="" class="absolute right-0 -top-24" src="/icons/wave.svg">
-    <div class="absolute w-1/3 right-16">
+    <img alt="" class="absolute right-0 -top-24 sm:block hidden" src="/icons/wave.svg">
+    <div class="absolute w-1/3 right-16 sm:block hidden">
       <img alt="Application" class="" src="/images/mockup_fourmi.png">
     </div>
   </section>
