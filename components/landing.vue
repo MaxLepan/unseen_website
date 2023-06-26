@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="bg-beige-200 grid sm:grid-cols-2 gap-1 lg:p-20 sm:p-10 p-5 sm:m-0 mx-5 rounded-lg h-full">
+  <section class="relative bg-beige-200 grid sm:grid-cols-2 gap-1 lg:p-20 sm:p-10 p-5 sm:m-0 mx-5 rounded-lg h-full">
     <div class="z-10">
       <h1 class="font-bold font-title lg:text-5xl md:text-3xl text-5xl">{{ $t('headlineStart') }}<span
           class="text-olive-400">{{
@@ -19,7 +19,10 @@
           }}</a>
       </button>
     </div>
-    <div class="bg-black-500 h-10 w-10 sm:block hidden"></div>
+    <img alt="" class="absolute right-0 -top-24" src="/icons/wave.svg">
+    <div class="absolute w-1/3 right-16">
+      <img alt="Application" class="" src="/images/mockup_fourmi.png">
+    </div>
   </section>
 </template>
 

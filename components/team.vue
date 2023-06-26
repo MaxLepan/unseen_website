@@ -14,6 +14,7 @@
       <div class="lg:block hidden absolute bottom-10 right-80 transform translate-x-1/2 translate-y-1/2 z-0">
         <img alt="" src="/icons/feuille_02.svg">
       </div>
+      <img alt="" class="absolute -top-24 -left-40" src="/icons/wave2.svg">
     </div>
     <div class="md:w-11/12">
       <section class="flex flex-basis flex-wrap justify-center">
