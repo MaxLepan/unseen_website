@@ -34,6 +34,16 @@ export default defineI18nConfig(() => ({
             featureMapText3Bold: 'Filter the species',
             featureMapText3End: ' you want to see on the map: amphibians, reptiles, insects or arachnids.',
 
+            featureTitle:"How does it work ?",
+            featureSubTitle:"3 ways to search",
+            firstFeatureHeadLine: "Beginner",
+            firstFeaturetext: "Find informations about observable species around you",
+            secondFeatureHeadLine: "Intermediate",
+            secondFeaturetext: "Identify little creatures by observing it",
+            thirdFeatureHeadLine: "Expert",
+            thirdFeaturetext: "Search for the profile of a known species",
+
+
             smallAdvantagesTitle: 'Little extras',
             smallAdvantagePhobiaTitle: 'Adjust the app according to your phobias',
             smallAdvantagePhobiaText: 'Add your fears so that the photos of the concerned species do not appear',
@@ -87,6 +97,15 @@ export default defineI18nConfig(() => ({
             featureMapText2Bold: 'localisation exacte.',
             featureMapText3Bold: 'Filtre les espèces',
             featureMapText3End: ' que tu souhaites voir sur la carte : amphibiens, reptiles, insectes ou arachnides.',
+
+            featureTitle:"Comment ça marche ?",
+            featureSubTitle:"3 outils de recherche :",
+            firstFeatureHeadLine: "Débutant",
+            firstFeaturetext: "Informe-toi sur les espèces observables dans le milieu où tu te trouves",
+            secondFeatureHeadLine: "Intermédiaire",
+            secondFeaturetext: "Identifie une petite-bête en l’observant",
+            thirdFeatureHeadLine: "Expert",
+            thirdFeaturetext: "Recherche la fiche d’une espèce déjà connue",
 
             smallAdvantagesTitle: 'Les p\'tits plus',
             smallAdvantagePhobiaTitle: 'Règle l’appli selon tes phobies',

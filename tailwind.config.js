@@ -7,6 +7,7 @@ module.exports = {
             'beige': {
                 100: '#fffcf8',
                 200: '#F8F1E4',
+                300: '#F4EADC',
                 400: '#E5DAC8',
             },
             'olive': {
@@ -18,7 +19,13 @@ module.exports = {
                 500: '#242A2B',
             },
             'green': {
-                100: '#ebf0e3',
+                100: '#BFDABA',
+            },
+            'sapin': {
+                100: '#A4C7BA',
+            },
+            'orange': {
+                100: '#EEB67E',
             },
             'transparent': 'transparent',
         },
