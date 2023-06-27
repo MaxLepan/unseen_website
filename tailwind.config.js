@@ -32,6 +32,11 @@ module.exports = {
         fontFamily: {
             'title': ['Rubik', 'sans-serif'],
             'body': ['Nunito', 'sans-serif'],
+        },
+        extend: {
+            zIndex: {
+                '15': '15',
+            }
         }
     },
     plugins: [
