@@ -7,7 +7,6 @@
   <PromotionalVideo/>
   <Team/>
   <OurValues/>
-
 </template>
 
 <script lang="ts" setup>

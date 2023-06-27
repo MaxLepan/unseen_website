@@ -5,14 +5,14 @@ import OurPartners from "~/components/smaller_components/ourPartners.vue";
 </script>
 
 <template>
-  <div>
-    <div class="w-96 mx-auto">
+  <div id="download">
+    <div class="w-96 mx-auto z-20 relative">
       <p class="font-title text-2xl text-center font-semibold">{{ $t('downloadTextStart') }}<span
           class="text-olive-400">{{
           $t('downloadTextSpan')
         }}</span><br>{{ $t('downloadTextEnd') }}</p>
     </div>
-    <div class="relative mt-20 ">
+    <div class="relative mt-20 z-20">
       <div class="absolute bottom-4 mx-auto left-0 right-0 transform -translate-y-1/2 grid grid-cols-12">
         <div
             class="sm:col-start-6 col-start-4 sm:col-span-2 col-span-6 flex flex-row items-center py-3 bg-olive-200 rounded">

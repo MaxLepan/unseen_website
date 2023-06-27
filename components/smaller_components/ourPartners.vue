@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="lg:px-52 sm:px-32 px-8">
+  <div class="lg:px-52 sm:px-32 px-8 z-20 relative">
     <h2 class="font-title italic text-2xl">{{ $t('ourPartners') }}</h2>
     <div class="flex md:flex-row flex-col md:gap-0 gap-11 justify-between my-10 pb-6">
       <img alt="Partenaire : Office National des Forêts" class="h-16 md:object-cover object-contain"
