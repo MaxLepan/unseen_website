@@ -5,7 +5,7 @@
 <template>
   <section
       class="relative bg-beige-200 grid sm:grid-cols-2 gap-1 lg:px-20 lg:pt-0 sm:px-10 sm:pt-10 px-5 pt-5 sm:m-0 mx-5 rounded-lg h-full">
-    <div class="lg:pt-20 pt-0 lg:pb-20 sm:pb-10 pb-5 self-center">
+    <div class="lg:pt-20 pt-0 lg:pb-20 sm:pb-10 pb-5 lg:pr-12 self-center">
       <h1 class="lg:leading-[60px] md:leading-[60px] leading-[60px] font-bold font-title lg:text-5xl md:text-3xl text-5xl relative z-20">
         {{
           $t('headlineStart')
