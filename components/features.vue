@@ -25,14 +25,14 @@
 
           <div
               class="my-4 py-3.5 pl-5 lg:my-8 border-2 border-beige-300 flex flex-col items-start hover:bg-beige-300 duration-300 relative z-20 hover:cursor-pointer"
-              @mouseover="changeImage('/images/quiz_species.png')">
+              @mouseover="changeImage('/images/quiz_place.png')">
             <h4 class="bg-green-100 py-1 px-3.5 mb-3.5 rounded">{{ $t('firstFeatureHeadLine') }}</h4>
             <div class="pr-16">{{ $t('firstFeaturetext') }}</div>
           </div>
 
           <div
               class="my-4 py-3.5 pl-5 lg:my-8 border-2 border-beige-300 flex flex-col items-start hover:bg-beige-300 duration-300 relative z-20 hover:cursor-pointer"
-              @mouseover="changeImage('/images/quiz_place.png')">
+              @mouseover="changeImage('/images/quiz_species.png')">
             <h4 class="bg-sapin-100 py-1 px-3.5 mb-3.5 rounded">{{ $t('secondFeatureHeadLine') }}</h4>
             <div class="pr-16">{{ $t('secondFeaturetext') }}</div>
           </div>
@@ -55,7 +55,7 @@
 export default {
   data() {
     return {
-      currentImage: '/images/quiz_species.png',
+      currentImage: '/images/quiz_place.png',
     };
   },
   methods: {

@@ -34,7 +34,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: "#motion-path",
       start: "top top-=250",
-      end: "top top",
+      end: "top top", // I don't get why bottom center is making a huge empty space at the bottom of the page and it's making me crazy
       pin: true,
       scrub: true,
       onRefresh: () => {
