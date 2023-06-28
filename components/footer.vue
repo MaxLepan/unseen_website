@@ -5,7 +5,7 @@ import OurPartners from "~/components/smaller_components/ourPartners.vue";
 </script>
 
 <template>
-  <div id="download">
+  <div id="download" class="bg-beige-100">
     <div class="w-96 mx-auto z-20 relative">
       <p class="font-title text-2xl text-center font-semibold">{{ $t('downloadTextStart') }}<span
           class="text-olive-400">{{
