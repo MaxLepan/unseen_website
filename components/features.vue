@@ -14,7 +14,7 @@
       <div class="lg:flex-1">
         <div class="flex flex-row mb-5">
           <figure>
-            <img alt="recherche" src="../public/icons/recherche.svg" class="w-11 rounded-full bg-beige-100 p-1"/>
+            <img alt="recherche" class="w-11 rounded-full bg-beige-100 p-1" src="../public/icons/recherche.svg"/>
           </figure>
           <h3 class="font-title font-bold lg:text-2xl md:text-xl text-lg ml-4 mt-2">{{ $t('featureSubTitle') }}</h3>
         </div>

@@ -1,6 +1,6 @@
 <template>
   <div id="container"
-       class="w-full absolute sm:flex hidden flex-col justify-start -top-10 -left-5 z-15">
+       class="absolute lg:flex hidden flex-col xl:justify-end justify-start xl:left-16 xl:w-[85%] -left-5 z-15">
     <svg id="motion-path" class="invisible z-15 overflow-x-hidden" fill="none" height="4900" viewBox="0 0 1280 4900"
          width="1280"
          xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: "#motion-path",
       start: "top top-=250",
-      end: "bottom center",
+      end: "top top",
       pin: true,
       scrub: true,
       onRefresh: () => {
