@@ -8,7 +8,7 @@
       <div class="lg:block hidden absolute bottom-4 left-52 transform translate-x-1/2 translate-y-1/2">
         <img alt="" src="/icons/feuille_01_2.svg">
       </div>
-      <h2 class="relative font-title font-bold text-center sm:text-4xl text-5xl mb-14 z-20">{{
+      <h2 class="relative font-title font-bold text-center text-5xl mb-14 z-20">{{
           $t('teamHeadline')
         }}</h2>
       <div class="lg:block hidden absolute bottom-10 right-80 transform translate-x-1/2 translate-y-1/2">
@@ -22,8 +22,8 @@
           <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/marine.jpg">
           </figure>
-          <h4 class="relative lg:text-4xl md:text-3xl text-2xl text-center font-title font-bold z-20">Marine</h4>
-          <p class="relative md:text-2xl sm:text-xl text-lg text-center font-body z-20">{{
+          <h4 class="relative lg:text-3xl md:text-2xl text-xl text-center font-title font-bold z-20">Marine</h4>
+          <p class="relative sm:text-xl text-lg text-center font-body z-20">{{
               $t('teamMemberMarineText')
             }}</p>
         </div>
@@ -31,8 +31,8 @@
           <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/romain.jpg">
           </figure>
-          <h4 class="relative lg:text-4xl md:text-3xl text-2xl text-center font-title font-bold z-20">Romain</h4>
-          <p class="relative md:text-2xl sm:text-xl text-lg text-center font-body z-20">{{
+          <h4 class="relative lg:text-3xl md:text-2xl text-xl text-center font-title font-bold z-20">Romain</h4>
+          <p class="relative sm:text-xl text-lg text-center font-body z-20">{{
               $t('teamMemberRomainText')
             }}</p>
         </div>
@@ -40,8 +40,8 @@
           <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/chloea.jpg">
           </figure>
-          <h4 class="relative lg:text-4xl md:text-3xl text-2xl text-center font-title font-bold z-20">Chloé A.</h4>
-          <p class="relative md:text-2xl sm:text-xl text-lg text-center font-body z-20">{{
+          <h4 class="relative lg:text-3xl md:text-2xl text-xl text-center font-title font-bold z-20">Chloé A.</h4>
+          <p class="relative sm:text-xl text-lg text-center font-body z-20">{{
               $t('teamMemberChloeAText')
             }}</p>
         </div>
@@ -49,8 +49,8 @@
           <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/chloef.png">
           </figure>
-          <h4 class="relative lg:text-4xl md:text-3xl text-2xl text-center font-title font-bold z-20">Chloé F.</h4>
-          <p class="relative md:text-2xl sm:text-xl text-lg text-center font-body z-20">{{
+          <h4 class="relative lg:text-3xl md:text-2xl text-xl text-center font-title font-bold z-20">Chloé F.</h4>
+          <p class="relative sm:text-xl text-lg text-center font-body z-20">{{
               $t('teamMemberChloeFText')
             }}</p>
         </div>
@@ -58,8 +58,8 @@
           <figure class="img-container w-full flex justify-center mx-auto sm:mb-10 mb-5">
             <img alt="" class="rounded-full h-full w-full object-cover" src="../assets/images/max.jpg">
           </figure>
-          <h4 class="relative lg:text-4xl md:text-3xl text-2xl text-center font-title font-bold z-20">Max</h4>
-          <p class="relative md:text-2xl sm:text-xl text-lg text-center font-body z-20">{{
+          <h4 class="relative lg:text-3xl md:text-2xl text-xl text-center font-title font-bold z-20">Max</h4>
+          <p class="relative sm:text-xl text-lg text-center font-body z-20">{{
               $t('teamMemberMaxText')
             }}</p>
         </div>
