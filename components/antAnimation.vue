@@ -1,6 +1,6 @@
 <template>
   <div id="container"
-       class="absolute lg:flex hidden flex-col xl:justify-end justify-start xl:left-48 xl:w-[85%] -left-5 z-15">
+       class="absolute lg:flex hidden flex-col xl:justify-end justify-start xl:left-48 xl:top-5 xl:w-[85%] -left-5 z-15">
     <svg id="motion-path" class="invisible z-15 overflow-x-hidden" fill="none" height="4900" viewBox="0 0 1280 4900"
          width="1280"
          xmlns="http://www.w3.org/2000/svg">
