@@ -1,25 +1,50 @@
-# Nuxt 3 Minimal Starter
+# Unseen - Site vitrine
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![](https://github.com/MaxLepan/unseen_app/raw/main/assets/images/readme_images/banniere.png)
 
-## Setup
+Ce repo est le site vitrine en onepage du [projet de fin d'année](https://github.com/MaxLepan/unseen_app) de troisième année de Bachelor.
+Il présente les fonctionnalités et l'équipe derrière le projet, tout en étant disponible en français et en anglais.
 
-Make sure to install the dependencies:
+## Technologies utilisées
 
+Nuxt.js : un framework basé sur Vue.js et Node.js permettant de créer des sites web statiques.
+
+TailwindCSS : un framework CSS permettant de styliser facilement des éléments HTML sans écrire de CSS mais en appliquant des classes prédéfinies (et modifiables).
+
+GSAP : une library JavaScript permettant de créer des animations complexes.
+
+nuxtjs/i18n : un module Nuxt.js permettant la traduction facile et rapide en plusieurs langues du site.
+
+## Installation
+
+Clonez le projet : 
 ```bash
-# yarn
+git clone https://github.com/MaxLepan/unseen_website.git
+```
+
+Installez les dépendances du projet : 
+
+Yarn : 
+```bash
+cd unseen_website
 yarn install
+```
 
-# npm
+NPM : 
+```bash
+cd unseen_website
 npm install
+```
 
-# pnpm
+PNPM : 
+```bash
+cd unseen_website
 pnpm install
 ```
 
-## Development Server
+## Serveur de développement
 
-Start the development server on `http://localhost:3000`
+Le serveur de développement se lance sur `http://localhost:3000`.
 
 ```bash
 npm run dev
@@ -27,16 +52,14 @@ npm run dev
 
 ## Production
 
-Build the application for production:
+Pour build le site pour la production :
 
 ```bash
 npm run build
 ```
 
-Locally preview production build:
+Pour une prévisualisation du site avant la production:
 
 ```bash
 npm run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
