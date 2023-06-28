@@ -2,7 +2,7 @@
 
 ![](https://github.com/MaxLepan/unseen_app/raw/main/assets/images/readme_images/banniere.png)
 
-Ce repo est le site vitrine en onepage du [projet de fin d'année](https://github.com/MaxLepan/unseen_app) de troisième année de Bachelor.
+Ce projet est le site vitrine en onepage du [projet de fin d'année](https://github.com/MaxLepan/unseen_app) de troisième année de Bachelor.
 Il présente les fonctionnalités et l'équipe derrière le projet, tout en étant disponible en français et en anglais.
 
 ## Technologies utilisées
